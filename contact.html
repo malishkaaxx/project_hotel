@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us | The Luxe Lodge</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+</head>
+<body>
+  <div class="bg-img">
+    <div class="logo">
+        <img id="logo" src="logo1.png" height="100" width="100" alt="this is logo" />
+      </div>
+    <div class="container">
+        
+      <div class="topnav">
+        <a href="index.html" class="">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </div>
+
+ <h1>Reservation</h1>
+    <p>Please fill in this form to register for your vacation. Please register your legal name 
+      as it will appear on your passport.
+  </p>
+  <hr>
+  <div class="form1">
+    <form method="post" >
+      <label for="name"><b>Name:</b></label><br>
+      <input type="text"  placeholder="Enter your full name" id="name" name="name" required><br>
+
+      <label for="email"><b>Email:</b></label><br>
+      <input type="email"  placeholder="Enter your email" id="email" name="email" required><br>
+
+      <label for="name"><b>Current Country: </b></label>
+      <input type="text" placeholder="Enter the country " name="name" id="name" required>
+
+      <label for="checkin"><b>Check-in Date:</b></label><br>
+      <input type="date" id="checkin" name="checkin" required><br>
+
+      <label for="checkout"><b>Check-out Date:</b></label><br>
+      <input type="date" id="checkout" name="checkout" required><br>
+
+      <label for="room"><b>Room Type:</b></label><br>
+      <select id="room" name="room" required>
+        <option value="standard">Standard</option>
+        <option value="deluxe">Deluxe</option>
+        <option value="suite">Suite</option>
+      </select><br>
+
+      <label for="adults"><b>Number of Adults:</b></label><br>
+      <input type="number"  placeholder="Enter the total number of adults" id="adults" name="adults" min="1" max="10" required><br>
+
+      <label for="children"><b>Number of Children:</b></label><br>
+      <input type="number"  placeholder="Enter the total number of children" id="children" name="children" min="0" max="10"><br>
+
+      <label for="number"><b> Emergency contact number:</b></label>
+        <input type="number" placeholder="Enter emergency contact number" name="name" id="name" required>
+
+        <label for="email"><b> Emergency contact name:</b></label>
+        <input type="text" placeholder="Enter emergency contact person's name" name="name" id="name" required>
+        <hr>
+    <h3>I acknowledge that I have read this registration form completely and the information 
+        I provided is accurate. I understand that my deposit is non-refunable and other cancellation penalties will 
+        apply depending on the cancel date. I understand that if my roomate (s) cancel, my rate will change. I
+         understand that all monies must be paid by the final payment date. If my balance is left unpaid, my cabin 
+         will be canceled immediately. Prices for reinstated cabins maybe higher than intial rate and a $50
+          reinstatement / administration fee will be charge by Essence Travel regardless of the cancellation date.</h3>
+        <p>By registering you agree to our Terms & Privacy.</p>
+        <button type="submit" class="registerbtn">Reserve</button>
+     
+    </form>
+  </div>
+<br> <br>
+<!--Google Map-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.537314968728!2d85.31524417964873!3d27.71245364566185!2m3!1
+    f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19016c9d9fcb%3A0xd2291eee6917d60a!2sDurbar%20Marg%2C%20Kathmandu%2044600!5e0!3m2!
+    1sen!2snp!4v1713024601033!5m2!1sen!2snp" width=100% height="600" style="border:0;" allowfullscreen="" loading="lazy"
+     referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br><br>
+  <form method="post" class="formResponsive">
+        
+
+        <h3>Send us a message to assist you with your enquiry. </h3>
+        <h4>Please fill in required fields in the enquiry form. We will attend to you as soon as possible.</h4>
+        <p>*required</p>
+        <hr>
+
+        <fieldset>
+            <label for="firstname" >Full Name<strong >*</strong></label>
+              <input type="text"  size="20" name="firstname" id="firstname" required>	
+        
+        
+            <label for="email">Email<strong >*</strong></label>
+              <input type="text"  size="20" name="email" id="email" required >
+               
+            <label for="comments">Message/Questions<strong>*</strong></label>
+              <textarea cols="50" rows="5" name="comments" id="comments" required ></textarea> 
+<br>
+              <button type="submit" class="button" >Send Enquiry</button> 			
+        </fieldset>
+
+<div class="footer">  
+      <div class="logo_footer">
+          <img id="logo" src="logo1.png" height="120" width="120" alt="this is logo" >
+      </div>
+    <p>Paryatak Marg,Durbar Marg,</p>
+    <p>Ward no. 1, Kathmandu District</p> 
+    <p>Province 3, Nepal</p>
+    <p>Tel: +977 1 4238847, 4329383</p>
+    <p>Fax: +977 1 4228783, 4237898</p>
+    <p>reservation@luxelodge.com.np</p>
+    <br>
+    <p>@Copyright <a href=""> TheLuxeLodge </a> 2024- All Right Reserved.</p> 
+    </div> 
+
+</body>
